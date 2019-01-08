@@ -1,0 +1,40 @@
+#dialy .perday {
+  background-image: url(/images/nen-dialy.jpg?e9977a9a0478b441c2bc504f62a9beb9);
+}
+
+.content-dialy {
+  clear: both;
+  background-image: url(/images/nen-dialy3.jpg?de958c16f9c08728af75d4ae5baf5f71);
+}
+
+.content-dialy .title {
+  color: #dc3d24;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 16px;
+}
+
+.content-dialy .title input {
+  background-image: url(/images/nen-dialy3.jpg?de958c16f9c08728af75d4ae5baf5f71);
+  border: 1px solid #aa6db0;
+  padding: 0px 8px;
+  font-size: 18px;
+  width: 80%;
+  color: #ff2502;
+}
+
+.content-dialy .title input:focus {
+  -webkit-box-shadow: 0.5px 0.5px 5px #aa6db0;
+          box-shadow: 0.5px 0.5px 5px #aa6db0;
+  outline: none;
+}
+
+.content-dialy .title .date-content-dialy {
+  float: right;
+}
+
+.content-dialy button.shiny-btn {
+  display: inline-block;
+  margin: 16px 0 16px 30px;
+}
+
