@@ -1,0 +1,94 @@
+@import url(https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);#feedback {
+  clear: both;
+}
+
+#feedback form {
+  padding: 1px 16px 16px;
+}
+
+#feedback form label {
+  display: block;
+  margin: 15px 0 5px;
+}
+
+#feedback form textarea {
+  width: 60%;
+  margin-left: 20px;
+  display: block;
+  border-radius: 5px;
+  outline: none;
+}
+
+#feedback form textarea:focus {
+  -webkit-box-shadow: 1px 1px 5px #00b540;
+          box-shadow: 1px 1px 5px #00b540;
+}
+
+#feedback form button {
+  padding: 0;
+  background: transparent;
+  border: none;
+}
+
+#feedback form button.shiny-btn {
+  margin: 16px 25px 0;
+}
+
+#feedback form input[type='text'] {
+  width: 60%;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+
+div.stars {
+  display: inline-block;
+}
+
+div.stars p {
+  margin: 16px 16px 0;
+}
+
+div.stars form {
+  padding: 0 16px !important;
+}
+
+div.stars input.star {
+  display: none;
+}
+
+div.stars label.star {
+  float: right;
+  padding: 0px 10px;
+  font-size: 25px;
+  color: #444;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  margin: 0 !important;
+}
+
+div.stars input.star:checked ~ label.star:before {
+  content: '\F005';
+  color: #fd4;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
+}
+
+div.stars input.star-5:checked ~ label.star:before {
+  color: #fe7;
+  text-shadow: 0 0 20px #952;
+}
+
+div.stars input.star-1:checked ~ label.star:before {
+  color: #f62;
+}
+
+div.stars label.star:hover {
+  -webkit-transform: rotate(-15deg) scale(1.3);
+          transform: rotate(-15deg) scale(1.3);
+}
+
+div.stars label.star:before {
+  content: '\F006';
+  font-family: FontAwesome;
+}
+
